@@ -42,3 +42,17 @@ export let courseList = [
         name:"How to build dapps on the NEAR blockchain"
     },
 ]
+export let country = [
+    {
+        name:"Croatian",
+        url:"assets/country1.svg"
+    },
+    {
+        name:"Bulgarian",
+        url:"assets/country2.svg"
+    },
+    {
+        name:"English ",
+        url:"assets/country3.svg"
+    }
+]

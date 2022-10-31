@@ -19,12 +19,13 @@ export default function Home() {
         <div className=' px-6 lg:px-0  relative lg:pt-32 pt-12 h-fit md:h-screen lg:h-fit w-full'>
         <div className=" text-center lg:w-[56.875rem] mx-auto"><h1 className="lg:text-7xl lg:w-full leading-[50px] w-52 mx-auto font-semibold text-4xl text-primary-900">Get <span className="bg-clip-text text-transparent bg-gradient-to-b from-[#9092fb] via-[#86b5ef] to-[#7bdde2]">NEAR</span> Certified!</h1>
         <p className=" pt-5 pb-24 lg:text-[1.375rem] text-lg text-primary-800 leading-7">We, in NEAR Balkans, know how important it is to have regional and local support. Now you can become NEAR certified in a regional language of preference and connect with our team to support your further growth within the NEAR ecosystem.</p>
-          <Link href="#wallet"> <img src="/assets/icon1.svg" className='mx-auto text-center cursor-pointer' /></Link>
+          <a href="#wallet"> <img src="/assets/icon1.svg" className='mx-auto text-center cursor-pointer' /></a>
         </div>
         </div>
-        <div  className="grid mt-16  justify-items-center font-semibold text-center text-primary-900 text-[32px] lg:text-5xl leading-7 lg:leading-[60px] tracking-[-0.02em]">Making your NEAR <br />learning easy.</div>
+        
       </section>
       <section id='wallet'>
+      <div  className="grid mt-16  justify-items-center font-semibold text-center text-primary-900 text-[32px] lg:text-5xl leading-7 lg:leading-[60px] tracking-[-0.02em]">Making your NEAR <br />learning easy.</div>
         <div className='lg:mt-[182px] relative mt-16 gap-y-4 px-[22px] lg:px-0 lg:max-w-[940px] mx-auto flex lg:flex-row flex-col-reverse lg:justify-between items-center'>
           <div className='text-center my-auto lg:text-left'>
           <h1 className='text-primary-900 font-semibold text-2xl text-center lg:text-left lg:text-4xl leading-10 tracking-[-0.02em]'>
@@ -46,7 +47,7 @@ export default function Home() {
         <img src="/assets/img2l.svg" className='hidden sm:block w-fit m-auto mt-36' height={132} width={164} />
         <div className='relative gap-y-4 px-[22px] lg:px-0 lg:max-w-[940px] mx-auto flex lg:flex-row flex-col-reverse lg:justify-between items-center'>
           <div className='sm:block hidden text-center my-auto lg:text-left relative'>
-          <div class="blur-[6.181rem] bg-left-gradient-background left-0 h-full w-[380px] m-auto max-w-[380px] absolute  z-0 hidden lg:block"></div>
+          <div class="blur-[6.181rem] bg-left-gradient-background  -left-36 -bottom-36 h-full w-[380px] m-auto max-w-[380px] absolute  z-0 hidden lg:block"></div>
             <img src='/assets/img2.svg' width={296} height={296} />
           </div>
           <div className='m-auto sm:ml-auto'>
